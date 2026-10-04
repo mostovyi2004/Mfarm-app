@@ -1,0 +1,30 @@
+# Dart / Flutter
+.dart_tool/
+.packages
+build/
+pubspec_overrides.yaml
+*.iml
+.idea/
+.vscode/
+.flutter-plugins
+.flutter-plugins-dependencies
+coverage/
+
+# Android
+**/android/.gradle/
+**/android/local.properties
+**/android/key.properties
+*.jks
+*.keystore
+
+# Windows / Linux desktop builds
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+
+# Дані господарства й резервні копії — ніколи не в репозиторій
+*.agro
+*.agro-backup
+
+# Системне
+.DS_Store
+Thumbs.db
